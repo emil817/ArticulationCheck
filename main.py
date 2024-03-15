@@ -3,6 +3,7 @@ import os
 import tensorflow as tf
 from catboost import CatBoostClassifier
 
+# Для работы нужно подключить файл с токеном для телеграм-бота, который нужно дополнительно добавить
 from Tokens import telebot_token
 from Analyzers import analyse_video, analyse_audio
 
